@@ -1,0 +1,6 @@
+{
+    "steam":{
+        "API_KEY": "",
+        "BASE_URL": "http://api.steampowered.com"
+    }
+}

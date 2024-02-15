@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4197a06-eb62-435a-a5ba-b6b4f4ab83d2" name="Changes" comment="Updating Requirements">
-      <change afterPath="$PROJECT_DIR$/static/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/_layout.html" afterDir="false" />
+    <list default="true" id="f4197a06-eb62-435a-a5ba-b6b4f4ab83d2" name="Changes" comment="Adding Common Layout File">
+      <change afterPath="$PROJECT_DIR$/config_keys.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/steam_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/shared/_layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -66,6 +68,11 @@
     "settings.editor.selected.configurable": "fileTemplates"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\talkpython\_code\py\learning-FLASK\templates\shared" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -106,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708002607924</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding Common Layout File">
+      <option name="closed" value="true" />
+      <created>1708003712226</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708003712226</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +219,7 @@
     <MESSAGE value="Setting up FLASK Project" />
     <MESSAGE value="Adding First Template" />
     <MESSAGE value="Updating Requirements" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating Requirements" />
+    <MESSAGE value="Adding Common Layout File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Common Layout File" />
   </component>
 </project>
