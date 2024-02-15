@@ -3,7 +3,9 @@ body, html {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
+    overflow: hidden;
 }
+
 
 .bgimg{
     /* The image used */
@@ -11,7 +13,6 @@ body, html {
 
     /* Full height */
     height: 100%;
-    opacity: 1;
 
     background-position: center;
     background-repeat: no-repeat;
