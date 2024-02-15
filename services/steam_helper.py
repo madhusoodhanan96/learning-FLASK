@@ -12,9 +12,6 @@ with open('../config_keys.json') as config_file:
 
 
 def get_game_list():
-    """
-    Get the player summary for a given Steam ID.
-    """
     url = f"{BASE_URL}/ISteamApps/GetAppList/v0002/?key={API_KEY}&format=json"
     response = requests.get(url)
     data = response.json()
