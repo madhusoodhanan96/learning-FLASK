@@ -1,7 +1,8 @@
 import flask
-from flask import Flask
 
-app = Flask(__name__)
+from views import steam_views
+
+app = flask.Flask(__name__)
 
 
 @app.route('/')
@@ -10,4 +11,5 @@ def home():
 
 
 if __name__ == '__main__':
+    app.register_blueprint(steam_views.steam_blueprint)
     app.run(debug=True)
